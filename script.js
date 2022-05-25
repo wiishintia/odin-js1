@@ -26,13 +26,13 @@ function getComputerChoice(){
 function displayChoices(userChoice,computerChoice){
     switch (userChoice){
         case 'r': 
-            userChoice_img.src = 'images/rock.png';
+            userChoice_img.src = '/images/rock.png';
             break;
         case 'p':
-            userChoice_img.src = 'images/paper.png';
+            userChoice_img.src = '/images/paper.png';
             break;
         case 's':
-            userChoice_img.src = 'images/scissor.png';
+            userChoice_img.src = '/images/scissor.png';
             break;
     }
     switch (computerChoice){
