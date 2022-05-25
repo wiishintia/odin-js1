@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rock Paper Scissor</title>
 </head>
 <body>
+    <header>
+        <h1>ROCK PAPER SCISSOR</h1>
+    </header>
+    <div class="scoreboard">
+        <div class="user">
+            <div id="user-label" class="label">user</div>
+            <div id="user-choice" class="badge">
+                <img id='user-choice-img' src="/images/question.png" alt="">
+            </div>
+            <p id="user-score">0</p>
+        </div>
+        <div class="computer">
+            <div id="computer-label" class="label">computer</div>
+            <div id="computer-choice" class="badge">
+                <img id='computer-choice-img' src="/images/question.png" alt="">
+            </div>
+            <p id="computer-score">0</p>
+        </div>
+        
+    </div>
+    <div class="result">
+        <p>Make your move!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="/images/rock.png" alt="">
+        </div>
+        <div class="choice" id="p">
+            <img src="/images/paper.png" alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="/images/scissor.png" alt="">
+        </div>    
+    </div>
+    
+    <footer class="footer">
+        <p>
+            Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+        
+            <a href="https://github.com/wiishintia" target="_blank">
+                dewshin
+                <i class="fab fa-github"></i>
+            </a>
+        </p>
+    </footer>
+    <div class="popup" id="popup">
+        <p class="popup-title" id="message"></p>
+        <button class="btn btn-restart" id="restart-btn">Play again</button>
+    </div>
+    <div class="overlay" id="overlay"></div>
     <script src="script.js"></script>
 </body>
 </html>
