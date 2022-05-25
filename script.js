@@ -26,24 +26,24 @@ function getComputerChoice(){
 function displayChoices(userChoice,computerChoice){
     switch (userChoice){
         case 'r': 
-            userChoice_img.src = '/images/rock.png';
+            userChoice_img.src = 'images/rock.png';
             break;
         case 'p':
-            userChoice_img.src = '/images/paper.png';
+            userChoice_img.src = 'images/paper.png';
             break;
         case 's':
-            userChoice_img.src = '/images/scissor.png';
+            userChoice_img.src = 'images/scissor.png';
             break;
     }
     switch (computerChoice){
         case 'r': 
-            computerChoice_img.src = '/images/rock.png';
+            computerChoice_img.src = 'images/rock.png';
             break;
         case 'p':
-            computerChoice_img.src = '/images/paper.png';
+            computerChoice_img.src = 'images/paper.png';
             break;
         case 's':
-            computerChoice_img.src = '/images/scissor.png';
+            computerChoice_img.src = 'images/scissor.png';
             break;
     }
 } 
@@ -91,8 +91,8 @@ function setMessage(){
 function restartGame(){
     userScore = 0;
     computerScore = 0;
-    userChoice_img.src = "/images/question.png";
-    computerChoice_img.src = "/images/question.png";
+    userChoice_img.src = "images/question.png";
+    computerChoice_img.src = "images/question.png";
     userScore_span.textContent = '0';
     computerScore_span.textContent = '0';
     result_p.textContent = "Make your move!"
