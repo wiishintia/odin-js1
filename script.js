@@ -26,7 +26,11 @@ function getComputerChoice(){
 function displayChoices(userChoice,computerChoice){
     switch (userChoice){
         case 'r': 
+<<<<<<< HEAD
+            userChoice_img.src ='./images/rock.png';
+=======
             userChoice_img.src = './images/rock.png';
+>>>>>>> aa6f5871b3be2689e5bbe108d266777dfd5a089d
             break;
         case 'p':
             userChoice_img.src = './images/paper.png';
