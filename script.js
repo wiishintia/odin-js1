@@ -91,8 +91,8 @@ function setMessage(){
 function restartGame(){
     userScore = 0;
     computerScore = 0;
-    userChoice_img.src = "images/question.png";
-    computerChoice_img.src = "images/question.png";
+    userChoice_img.src = "./images/question.png";
+    computerChoice_img.src = "./images/question.png";
     userScore_span.textContent = '0';
     computerScore_span.textContent = '0';
     result_p.textContent = "Make your move!"
