@@ -7,6 +7,7 @@
 body{
     background-color: #67857c;
     position: relative;
+    min-height: 100vh;
 }
 
 header{
@@ -96,19 +97,15 @@ img{
 }
 
 .footer {
-    position: relative;
+    position: absolute;
     bottom: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
     width: 100%;
-    padding: 10px;
-    background-color: white;
+    text-align: center;
+    background-color: #ffffff;
     color: black;
     font-size: 15px;
-    margin-top:auto; 
+
+     
 }
   
 .fa-github {

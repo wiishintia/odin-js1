@@ -8,6 +8,7 @@
 body {
   background-color: #67857c;
   position: relative;
+  min-height: 100vh;
 }
 
 header {
@@ -110,25 +111,13 @@ img {
 }
 
 .footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
-  left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 10px;
   width: 100%;
-  padding: 10px;
-  background-color: white;
+  text-align: center;
+  background-color: #ffffff;
   color: black;
   font-size: 15px;
-  margin-top: auto;
 }
 
 .fa-github {
